@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>
+			Kathy Lesly Campos Cabello - WDD 230 - Web Frontend Development
+		</title>
+		<meta
+			name="description"
+			content="WDD 230 - Web Frontend Development - Kathy Lesly Campos Cabello - course assignment portal"
+		/>
+		<meta name="author" content="Kathy Lesly Campos Cabello" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="styles/normalize.css" />
+		<link rel="stylesheet" href="styles/base.css" />
+		<link rel="stylesheet" href="styles/larger.css" />
+	</head>
+	<body>
+		<header>
+			<img class="profile" src="images/profile.jpg" alt="My profile picture" />
+			<h1>Kathy Lesly Campos Cabello</h1>
+		</header>
+		<nav>
+			<button id="menu"></button>
+			<ul class="navigation">
+				<li><a href="#" class="active">Home</a></li>
+				<li><a href="#">Chamber</a></li>
+				<li>
+					<a href="#">Site Plan</a>
+				</li>
+				<li><a href="#">Form</a></li>
+			</ul>
+		</nav>
+
+		<main>
+			<h2>WDD 230: Web Frontend Development</h2>
+			<hr />
+			<section class="card" id="activities">
+				<h3>Learning Activities</h3>
+				<ul>
+					<li>
+						Week 01:
+						<!-- <a href="week01/chamber-site-plan.html"> HolyGrail</a> | -->
+						<a
+							href="https://kathy-BYUI.github.io/wdd230-2/week01/holygrail.html"
+							target="_blank"
+							>Layout</a
+						>
+						|
+						<a
+							href="https://kathy-BYUI.github.io/wdd230-2/week01/media-query.html"
+							target="_blank"
+							>Media Query</a
+						>
+					</li>
+
+					<li>Week 02: <a href="#"></a></li>
+					<li>Week 03: <a href="#"></a></li>
+					<li>Week 04: <a href="#"></a></li>
+					<li>Week 05: <a href="#"></a></li>
+					<li>Week 06: <a href="#"></a></li>
+				</ul>
+			</section>
+
+			<section class="card" id="info">
+				<h3>Information</h3>
+				<nav id="displayItems">
+					<nav>Huanuco, Peru</nav>
+					<nav><span id="currentTemperature"></span>🌞 76°F - Sunshine:</nav>
+					<nav>Page Visits: 15 <span id="pageVisit"></span></nav>
+				</nav>
+			</section>
+		</main>
+
+		<footer>
+			<p>
+				&copy; <span id="currentYear"></span> 🌺 Kathy Lesly Campos Cabello 🌺
+				Peru 🇵🇪
+			</p>
+			<p id="lastModified"></p>
+		</footer>
+
+		<script src="scripts/getDates.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	</body>
+</html>
