@@ -16,11 +16,11 @@
 	--heading-font: 'Courgette';
 	--paragraph-font: Poppins, Helvetica, sans-serif;
 	--headline-color-on-white: black;
-	--headline-color-on-color: #9ad2d6;
+	--headline-color-on-color: #f5fa00;
 	--paragraph-color-on-white: black;
 	--paragraph-color-on-color: #bbd69a;
 	--text-background-color: #2d3c1a;
-	--nav-link-color: #000000;
+	--nav-link-color: red;
 	--nav-background-color: #9ad2d6;
 	--nav-hover-link-color: #ffffff;
 	--nav-hover-background-color: #396e94;
@@ -55,7 +55,8 @@ header {
 	position: absolute;
 	top: 1rem;
 	right: 1rem;
-	color: var(--text-background-color);
+	/* color: var(--text-background-color); */
+	cursor: pointer;
 }
 
 img {
@@ -81,6 +82,10 @@ h1 {
 li,
 a {
 	font-family: 'Allan', cursive;
+}
+
+#activities a {
+	color: var(--nav-link-color);
 }
 
 #displayItems {
