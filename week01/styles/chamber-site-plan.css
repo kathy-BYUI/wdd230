@@ -1,37 +1,38 @@
 @import url('https://fonts.googleapis.com/css?family=Courgette|Poppins');
 
 :root {
-	--primary-color: #41bbd9;
-	--secondary-color: #f18f01;
-	--accent1-color: #ffca3a;
-	--accent2-color: #ff595e;
-
+	--primary-color: #2d3c1a;
+	--secondary-color: #bbd69a;
+	--accent1-color: #9ad2d6;
+	--accent2-color: #3d1a1a;
 	--heading-font: 'Courgette';
 	--paragraph-font: Poppins, Helvetica, sans-serif;
-
 	--headline-color-on-white: black;
-	--headline-color-on-color: #006e90;
+	--headline-color-on-color: #9ad2d6;
 	--paragraph-color-on-white: black;
-	--paragraph-color-on-color: #1982c4;
-	--text-background-color: #ffca3a;
-	--nav-link-color: #396e94;
-	--nav-background-color: #e7c24f;
-	--nav-hover-link-color: #e7c24f;
+	--paragraph-color-on-color: #bbd69a;
+	--text-background-color: #2d3c1a;
+	--nav-link-color: #000000;
+	--nav-background-color: #9ad2d6;
+	--nav-hover-link-color: #ffffff;
 	--nav-hover-background-color: #396e94;
 }
 
 html {
 	background-color: var(--primary-color);
 }
+
 body {
 	max-width: 900px;
 	margin: 0 auto;
 	background-color: white;
 	padding: 1em;
 }
+
 img {
 	max-width: 100%;
 }
+
 h1,
 h2,
 h3,
@@ -41,14 +42,16 @@ h6 {
 	font-family: var(--heading-font);
 	color: var(--headline-color-on-white);
 }
+
 header {
 	padding: 1em;
 	text-align: center;
 	color: var(--paragraph-color-on-color);
 	background-color: var(--text-background-color);
 }
-header > h1,
-header > h2 {
+
+header>h1,
+header>h2 {
 	color: var(--headline-color-on-color);
 }
 
@@ -64,9 +67,11 @@ p {
 	margin: auto;
 	text-align: center;
 }
+
 .colors th {
 	background-color: #999;
 }
+
 .colors td {
 	width: 25%;
 	height: 3em;
@@ -74,15 +79,20 @@ p {
 
 .primary {
 	background-color: var(--primary-color);
+	color: var(--nav-hover-link-color);
 }
+
 .secondary {
 	background-color: var(--secondary-color);
 }
+
 .accent1 {
 	background-color: var(--accent1-color);
 }
+
 .accent2 {
 	background-color: var(--accent2-color);
+	color: var(--nav-hover-link-color);
 }
 
 p.colored {
@@ -96,18 +106,22 @@ nav {
 	text-align: center;
 	font-size: 1.2em;
 }
-nav > ul {
+
+nav>ul {
 	list-style-type: none;
 	display: flex;
 }
+
 nav a {
 	padding: 1em;
 	min-width: 70px;
 }
+
 nav a:link,
 nav a:visited {
 	color: var(--nav-link-color);
 }
+
 nav a:hover {
 	color: var(--nav-hover-link-color);
 	background-color: var(--nav-hover-background-color);

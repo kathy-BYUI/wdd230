@@ -2,10 +2,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Capriola');
 @import url('https://fonts.googleapis.com/css2?family=Allan:wght@400;700');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,300&display=swap');
+
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+}
+
+:root {
+	--primary-color: #2d3c1a;
+	--secondary-color: #bbd69a;
+	--accent1-color: #9ad2d6;
+	--accent2-color: #3d1a1a;
+	--heading-font: 'Courgette';
+	--paragraph-font: Poppins, Helvetica, sans-serif;
+	--headline-color-on-white: black;
+	--headline-color-on-color: #9ad2d6;
+	--paragraph-color-on-white: black;
+	--paragraph-color-on-color: #bbd69a;
+	--text-background-color: #2d3c1a;
+	--nav-link-color: #000000;
+	--nav-background-color: #9ad2d6;
+	--nav-hover-link-color: #ffffff;
+	--nav-hover-background-color: #396e94;
 }
 
 body {
@@ -25,20 +44,23 @@ footer,
 
 header {
 	display: flex;
-	background-color: #41bbd9;
+	background-color: var(--text-background-color);
 	align-items: center;
 	justify-content: center;
 	margin-top: 0.5rem;
 }
+
 .active {
-	background-color: #ffca3a;
+	background-color: #76746f;
 }
+
 #mode {
 	position: absolute;
 	top: 1rem;
 	right: 1rem;
-	color: #41bbd9;
+	color: var(--text-background-color);
 }
+
 img {
 	width: 150px;
 	margin: 1rem;
@@ -58,10 +80,12 @@ h1 {
 	color: white;
 	font-size: 1em;
 }
+
 li,
 a {
 	font-family: 'Allan', cursive;
 }
+
 #displayItems {
 	font-family: 'Allan', cursive;
 }
@@ -76,19 +100,24 @@ ul {
 	left: 1rem;
 	padding: 0.25rem;
 }
+
 #menu::before {
 	content: '☰';
 }
+
 #menu.open::before {
 	content: '❌';
 }
+
 .open li {
 	display: block;
 	width: 100%;
 }
+
 .open li a {
 	display: block;
 }
+
 .navigation {
 	background-color: #0a0303;
 }
@@ -98,7 +127,7 @@ ul {
 	flex-direction: column;
 	text-align: center;
 	padding: 0.5rem;
-	color: #41bbd9;
+	color: white;
 	font-family: 'Capriola', serif;
 	text-decoration: none;
 }
@@ -114,6 +143,7 @@ ul {
 main {
 	padding-bottom: 3.3%;
 }
+
 .card {
 	margin: 1rem auto;
 	border: 2.5px solid rgb(168, 167, 167);
@@ -127,7 +157,7 @@ main {
 .card h3 {
 	text-align: center;
 	padding: 1rem;
-	background-color: #41bbd9;
+	background-color: var(--text-background-color);
 	color: white;
 }
 
@@ -145,7 +175,7 @@ main {
 }
 
 footer {
-	background-color: #41bbd9;
+	background-color: var(--text-background-color);
 	padding: 1.2rem;
 	display: block;
 	text-align: center;
