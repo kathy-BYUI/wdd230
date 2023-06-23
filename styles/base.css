@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Diphylleia');
 @import url('https://fonts.googleapis.com/css2?family=Capriola');
 @import url('https://fonts.googleapis.com/css2?family=Allan:wght@400;700');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,300&display=swap');
 
 * {
 	margin: 0;
@@ -31,14 +30,13 @@ body {
 	font-family: 'Diphylleia', serif;
 	font-family: 'Capriola', serif;
 	font-family: 'Allan', cursive;
-	font-family: 'Roboto', sans-serif;
 }
 
 header,
 main,
 footer,
 .navigation {
-	max-width: 650px;
+	max-width: 680px;
 	margin: 0 auto;
 }
 
@@ -94,56 +92,6 @@ ul {
 	list-style-type: none;
 }
 
-#menu {
-	position: absolute;
-	top: 2.5rem;
-	left: 1rem;
-	padding: 0.25rem;
-}
-
-#menu::before {
-	content: '☰';
-}
-
-#menu.open::before {
-	content: '❌';
-}
-
-.open li {
-	display: block;
-	width: 100%;
-}
-
-.open li a {
-	display: block;
-}
-
-.navigation {
-	background-color: #0a0303;
-}
-
-.navigation a {
-	display: flex;
-	flex-direction: column;
-	text-align: center;
-	padding: 0.5rem;
-	color: white;
-	font-family: 'Capriola', serif;
-	text-decoration: none;
-}
-
-.navigation a:hover {
-	background-color: #ffca3a;
-}
-
-.navigation li {
-	display: none;
-}
-
-main {
-	padding-bottom: 3.3%;
-}
-
 .card {
 	margin: 1rem auto;
 	border: 2.5px solid rgb(168, 167, 167);
@@ -174,6 +122,7 @@ main {
 	padding: 0.5%;
 }
 
+
 footer {
 	background-color: var(--text-background-color);
 	padding: 1.2rem;
@@ -188,4 +137,86 @@ footer {
 	font-size: 1rem;
 	color: yellow;
 	padding-top: 1rem;
+}
+
+/* small view navigation */
+
+#menu {
+	position: absolute;
+	top: 1rem;
+	left: 1rem;
+	padding: 0.25rem;
+}
+
+#menu::before {
+	content: '☰';
+}
+
+#menu.open::before {
+	content: '❌';
+}
+
+.navigation {
+	display: flex;
+	flex-direction: column;
+	background-color: #0a0303;
+}
+
+.navigation li {
+	display: none;
+}
+
+.navigation li a {
+	display: block;
+	padding: 1rem;
+	text-align: center;
+	color: white;
+	font-family: 'Capriola', serif;
+	text-decoration: none;
+}
+
+.navigation li a:hover {
+	background-color: #ffca3a;
+}
+
+/* when the button is clicked - the open class is toggle (added/removed) and accounted for here */
+.open li {
+	display: block;
+	width: 100%;
+}
+
+.open li a {
+	display: block;
+}
+
+.active::before {
+	content: "📍 ";
+}
+
+main {
+	padding-bottom: 3.3%;
+	max-width: 580px;
+}
+
+/* large view navigation ************************************/
+@media (min-width: 37.5em) {
+
+	#menu {
+		display: none;
+		/* hide hamburger button */
+	}
+
+	.navigation {
+		flex-direction: row;
+	}
+
+	.navigation li {
+		display: block;
+		flex: 1 1 100%;
+	}
+
+	main {
+		margin: 1rem auto;
+	}
+
 }
