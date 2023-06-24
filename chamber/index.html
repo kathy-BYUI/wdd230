@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huanuco Chamber of Commerce</title>
+    <meta name="KEYWORDS" content="/">
+    <meta name="description"
+        content="WDD 230 - Web Frontend Development - Kathy Lesly Campos Cabello - Huanuco Chamber of Commerce portal">
+    <meta property="og:title" content="Kathy Lesly Campos Cabello - WDD 230 - Web Frontend Development">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://portal.andina.pe/EDPFotografia3/thumbnail/2022/06/07/000874054M.jpg">
+    <meta property="og:url" content="https://kathy-byui.github.io/wdd230-2/chamber/index.html">
+    <meta name="author" content="Kathy Lesly Campos Cabello">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+
+<body>
+    <div class="note-bar">
+        <div id="mode">🌗</div>
+    </div>
+    <header>
+        <img class="chamber-logo" src="images/site-logo.png" alt="Huanuco Chamber of Commerce logo site">
+        <h1>Huanuco Chamber of Commerce</h1>
+    </header>
+    <nav>
+        <button id="menu"></button>
+        <ul class="navigation">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Chamber</a></li>
+            <li>
+                <a href="week01/chamber-site-plan.html">Site Plan</a>
+            </li>
+            <li><a href="#">Form</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <img src="images/municipal-office-puerto-inca.png" alt="Hero Image">
+            <div class="call-to-action">
+                <a href="#" class="btn">Join Now</a>
+            </div>
+        </section>
+        <p class="hero-text">Welcome to StokeSociety Chamber of Commerce, the vibrant hub for the Onewheel community.
+            We are dedicated to fostering a thriving ecosystem that celebrates the exhilaration and camaraderie
+            of Onewheel riding. As advocates for the right to repair, we champion the freedom to maintain and
+            personalize your Onewheel. No matter your skill, our platform offers a wealth of resources and exciting
+            events that
+            will enhance your experience and propel the growth of this revolutionary sport. Join us in
+            embracing the StokeSociety spirit and unlocking the boundless potential of Onewheel adventures.
+        </p>
+        <div class="container">
+            <section class="current-events">
+                <h3>Upcoming Events</h3>
+                <ul>
+                    <li>Event 1</li>
+                    <li>Event 2</li>
+                    <li>Event 3</li>
+                </ul>
+            </section>
+
+            <section class="weather-card">
+                <h3>Weather</h3>
+                <nav id="displayItems">
+                    <nav>Huanuco, Peru</nav>
+                    <nav><span id="currentTemperature"></span>🌞 76°F - Sunshine:</nav>
+                    <nav>Page Visits: 15 <span id="pageVisit"></span></nav>
+                </nav>
+            </section>
+        </div>
+        <section class="spotlights">
+            <h3>Company Spotlights</h3>
+            <div class="spotlight">
+                <img src="images/vacum.png" alt="Spotlight 1">
+                <h4>Company 1</h4>
+                <p>Visit our website for great deals!</p>
+            </div>
+            <div class="spotlight">
+                <img src="images/native-people-puerto-inca.png" alt="Spotlight 2">
+                <h4>Company 2</h4>
+                <p>Discover our innovative products.</p>
+            </div>
+            <div class="spotlight">
+                <img src="images/river-boat-puerto-inca.png" alt="Spotlight 3">
+                <h4>Company 3</h4>
+                <p>Experience our exceptional services.</p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="social">
+            <a target="_blank" href="https://www.facebook.com/">
+                <img src="images/fb-logo.png" alt="facebook logo" width="50"></a>
+            <a target="_blank" href="https://twitter.com/">
+                <img src="images/twitter-logo.png" alt="twitter logo" width="50"></a>
+            <a target="_blank" href="https://www.instagram.com/">
+                <img src="images/instagram-logo.png" alt="instagram logo" width="50"></a>
+        </div>
+        <div>
+            <p>
+                &copy; <span id="currentYear"></span> 🌺 Kathy Lesly Campos Cabello 🌺
+                Peru 🇵🇪
+            </p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/getHamburger.js"></script>
+    <script src="scripts/mode.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+</body>
+
+</html>
