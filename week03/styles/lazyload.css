@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Diphylleia');
+@import url('https://fonts.googleapis.com/css2?family=Capriola');
+@import url('https://fonts.googleapis.com/css2?family=Allan:wght@400;700');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #2d3c1a;
+    --secondary-color: #bbd69a;
+    --accent1-color: #9ad2d6;
+    --accent2-color: #3d1a1a;
+    --heading-font: 'Courgette';
+    --paragraph-font: Poppins, Helvetica, sans-serif;
+    --headline-color-on-white: black;
+    --headline-color-on-color: #f5fa00;
+    --paragraph-color-on-white: black;
+    --paragraph-color-on-color: #bbd69a;
+    --text-background-color: #2d3c1a;
+    --nav-link-color: red;
+    --nav-background-color: #9ad2d6;
+    --nav-hover-link-color: #ffffff;
+    --nav-hover-background-color: #396e94;
+}
+
+body {
+    font-family: 'Diphylleia', serif;
+    font-family: 'Capriola', serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header,
+main,
+footer,
+.navigation {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+header {
+    display: flex;
+    background-color: var(--text-background-color);
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.5rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.image-container {
+    opacity: 0;
+    animation: fade-in 1s forwards;
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    width: 400px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.chamber-logo {
+    width: 80px;
+    margin: 1rem;
+    height: 80px;
+}
+
+footer {
+    background-color: var(--text-background-color);
+    padding: 1.2rem;
+    display: block;
+    text-align: center;
+    color: white;
+    font-family: 'Diphylleia', serif;
+    margin-bottom: 0.5rem;
+}
+
+h1,
+h2 {
+    text-align: center;
+    padding: 1rem;
+    font-family: 'Diphylleia', serif;
+}
+
+h1 {
+    color: white;
+    font-size: 1em;
+}
