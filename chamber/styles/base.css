@@ -20,6 +20,7 @@
     --paragraph-color-on-white: black;
     --paragraph-color-on-color: #bbd69a;
     --text-background-color: #2d3c1a;
+    --light-background-color: rgba(213, 213, 213, 0.427);
     --nav-link-color: red;
     --nav-background-color: #9ad2d6;
     --nav-hover-link-color: #ffffff;
@@ -273,4 +274,49 @@ main {
         margin: 1rem auto;
     }
 
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.sidebar {
+    background-color: var(--light-background-color);
+}
+
+.sidebar-block {
+    margin: 10px;
+    border-style: groove;
+    align-items: center;
+}
+
+.sidebar-block h3,
+.sidebar-block ul {
+    margin: 20px;
+}
+
+iframe {
+    width: 100%;
+    height: 20em;
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+figure {
+    margin-bottom: 30px;
+}
+
+figcaption {
+    margin-top: 10px;
 }

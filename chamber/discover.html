@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huanuco Chamber of Commerce</title>
+    <meta name="KEYWORDS" content="/">
+    <meta name="description"
+        content="WDD 230 - Web Frontend Development - Kathy Lesly Campos Cabello - Huanuco Chamber of Commerce portal">
+    <meta property="og:title" content="Kathy Lesly Campos Cabello - WDD 230 - Web Frontend Development">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://portal.andina.pe/EDPFotografia3/thumbnail/2022/06/07/000874054M.jpg">
+    <meta property="og:url" content="https://kathy-byui.github.io/wdd230-2/chamber/index.html">
+    <meta name="author" content="Kathy Lesly Campos Cabello">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+
+<body>
+    <div class="note-bar">
+        <div id="mode">🌗</div>
+    </div>
+    <header>
+        <img class="chamber-logo" src="images/site-logo.webp" alt="Huanuco Chamber of Commerce logo site">
+        <h1>Huanuco Chamber of Commerce</h1>
+    </header>
+    <nav>
+        <button id="menu"></button>
+        <ul class="navigation">
+            <li><a href="../index.html" class="active">Home</a></li>
+            <li><a href="#">Chamber</a></li>
+            <li>
+                <a href="week01/chamber-site-plan.html">Site Plan</a>
+            </li>
+            <li><a href="#">Form</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="container">
+            <div class="sidebar">
+                <h2>Sidebar Content</h2>
+                <div class="sidebar-block">
+                    <h3>Visitor Message</h3>
+                    <p id="message"></p>
+                </div>
+                <div class="sidebar-block">
+                    <h3>Demographics</h3>
+                    <ul>
+                        <li></li>
+                        <li>Foundation: November 19, 1984</li>
+                        <li>Coordinates: 9°40′31″S 75°27′01″O</li>
+                        <li>Total area: 9914 km²</li>
+                        <li>Time zone: UTC-05:00</li>
+                    </ul>
+                </div>
+                <div class="sidebar-block">
+                    <h3>Statistical data</h3>
+                    <ul>
+                        <li>Population: 32538 hab.</li>
+                        <li>Density: 3,28 hab/km²</li>
+                    </ul>
+                </div>
+                <div class="sidebar-block">
+                    <h3>Events</h3>
+                    <ul>
+                        <li>Jun 24: Saint John festivity</li>
+                        <li>Oct 31: Sungaro Port Anniversary</li>
+                        <li>Nov 19: Inca Port Anniversary</li>
+                    </ul>
+                </div>
+                <div class="sidebar-block">
+                    <h3>Attractions</h3>
+                    <ul>
+                        <li>Widow's cave</li>
+                        <li>Pintuyacu Creek</li>
+                        <li>Sungarillo Spa</li>
+                        <li>Curassow ravine</li>
+                        <li>Boating</li>
+                    </ul>
+                </div>
+                <div class="sidebar-block">
+                    <h3>Calendar</h3>
+                    <iframe
+                        src="https://calendar.google.com/calendar/embed?src=es.pe%23holiday%40group.v.calendar.google.com&ctz=America%2FLima"
+                        style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+                </div>
+                <div class="sidebar-block">
+                    <h3>Maps</h3>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15746.336136038733!2d-75.03415349999999!3d-9.3700273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91a6cdb90617d09d%3A0xf612893f6d6f387e!2sPuerto%20Sungaro!5e0!3m2!1ses-419!2spe!4v1687593156780!5m2!1ses-419!2spe"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            <div class="main-content">
+                <h2>Local Photos of Interest</h2>
+                <figure>
+                    <img width="948" height="542" src="images/ganado-large.webp" alt="improved-breed-of-puerto-inca"
+                        srcset="images/ganado-large.webp 948w, images/ganado-small.webp 300w, images/ganado-medium.webp 768w"
+                        sizes="(max-width: 948px) 100vw, 948px" loading="lazy" class="image">
+                    <figcaption>Improved breed cattle raised in Puerto Inca</figcaption>
+                </figure>
+
+                <figure>
+                    <img width="948" height="542" src="images/banana-harvest-large.webp"
+                        alt="bellaco-banana-of-puerto-inca"
+                        srcset="images/banana-harvest-large.webp 948w, images/banana-harvest-small.webp 300w, images/banana-harvest-medium.webp 768w"
+                        sizes="(max-width: 948px) 100vw, 948px" loading="lazy" class="image">
+                    <figcaption>Bananas are a product with high demand</figcaption>
+                </figure>
+
+                <figure>
+                    <img width="948" height="542" src="images/corn-harvest-large.webp"
+                        alt="corn-harverst-in-puerto-inca"
+                        srcset="images/corn-harvest-large.webp 948w, images/corn-harvest-small.webp 300w, images/corn-harvest-medium.webp 768w"
+                        sizes="(max-width: 948px) 100vw, 948px" loading="lazy" class="image">
+                    <figcaption>In Puerto Inca, yellow or brown corn is harvested</figcaption>
+                </figure>
+
+                <figure>
+                    <img width="948" height="542" src="images/pacotana-fishing-large.webp"
+                        alt="pacotana-from-puerto-inca"
+                        srcset="images/pacotana-fishing-large.webp 948w, images/pacotana-fishing-small.webp 300w, images/pacotana-fishing-medium.webp 768w"
+                        sizes="(max-width: 948px) 100vw, 948px" loading="lazy" class="image">
+                    <figcaption>Pacotana raised on fish farms</figcaption>
+                </figure>
+
+                <figure>
+                    <img width="948" height="542" src="images/papaya-product-large.webp" alt="papaya-from-puerto-inca"
+                        srcset="images/papaya-product-large.webp 948w, images/papaya-product-small.webp 300w, images/papaya-product-medium.webp 768w"
+                        sizes="(max-width: 948px) 100vw, 948px" loading="lazy" class="image">
+                    <figcaption>Papaya cultivation is spreading more and more</figcaption>
+                </figure>
+
+                <figure>
+                    <img width="948" height="542" src="images/taller-chocolate-large.webp" alt="dry-cocoa-for-chocolate"
+                        srcset="images/taller-chocolate-large.webp 948w, images/taller-chocolate-small.webp 300w, images/taller-chocolate-medium.webp 768w"
+                        sizes="(max-width: 948px) 100vw, 948px" loading="lazy" class="image">
+                    <figcaption>Cocoa is cultivated by many families</figcaption>
+                </figure>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="social">
+            <a target="_blank" href="https://www.facebook.com/">
+                <img src="images/fb-logo.webp" alt="facebook logo" width="50"></a>
+            <a target="_blank" href="https://twitter.com/">
+                <img src="images/twitter-logo.webp" alt="twitter logo" width="50"></a>
+            <a target="_blank" href="https://www.instagram.com/">
+                <img src="images/instagram-logo.webp" alt="instagram logo" width="50"></a>
+        </div>
+        <div>
+            <p>
+                &copy; <span id="currentYear"></span> 🌺 Kathy Lesly Campos Cabello 🌺
+                Peru 🇵🇪
+            </p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+    <script src="scripts/visit.js"></script>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/getHamburger.js"></script>
+    <script src="scripts/mode.js"></script>
+</body>
+
+</html>
