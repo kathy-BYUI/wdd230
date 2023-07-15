@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tables for Data Presentation</title>
+    <meta name="KEYWORDS" content="/">
+    <meta name="description"
+        content="WDD 230 - Web Frontend Development - Kathy Lesly Campos Cabello - HTML Tables for Data Presentation">
+    <meta property="og:title" content="Kathy Lesly Campos Cabello - WDD 230 - Web Frontend Development">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://kathy-byui.github.io/wdd230-2/week04/tablebuild.html">
+    <meta name="author" content="Kathy Lesly Campos Cabello">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="../styles/base.css">
+    <link rel="stylesheet" href="../styles/larger.css">
+    <link rel="stylesheet" href="styles/tablebuild.css">
+    <link rel="icon" href="../favicon.ico">
+</head>
+
+<body>
+    <header>
+        <img class="site-logo" src="../images/site-logo.webp" alt="Kathy logo">
+        <h1>HTML Tables for Data Presentation</h1>
+    </header>
+    <main>
+        <table>
+            <caption>Table 1: HTML Tables for Data Presentation</caption>
+            <thead>
+                <tr>
+                    <th colspan="4" scope="colgroup">ACME Wildwest Services</th>
+                </tr>
+                <tr>
+                    <th scope="col" class="highlight"></th>
+                    <th scope="col">Basic</th>
+                    <th scope="col">Premium</th>
+                    <th scope="col">Deluxe</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Feature 1</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                </tr>
+                <tr>
+                    <td>Feature 2</td>
+                    <td>❌ </td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                </tr>
+                <tr>
+                    <td>Feature 3</td>
+                    <td>❌ </td>
+                    <td>❌ </td>
+                    <td>✔️</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+    <footer>
+        <p>
+            &copy; <span id="currentYear"></span> 🌺 Kathy Lesly Campos Cabello 🌺
+            Peru 🇵🇪
+        </p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="../scripts/getDates.js"></script>
+</body>
+
+</html>

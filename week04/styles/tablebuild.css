@@ -1,0 +1,70 @@
+:root {
+	--bord: 2px solid #777;
+	--back: rgb(0, 0, 0);
+	--back2: hsla(180, 6%, 23%, 0.83);
+	--foredark: hsla(0, 0%, 10%, 1);
+	--forelight: hsla(0, 0%, 100%, 1);
+	--border: hsla(0, 0%, 20%, .8);
+	--borderlight: hsla(0, 0%, 33%, .3);
+	--shadow: hsl(0, 0%, 50%);
+	--zebra: hsl(0, 0%, 93%, 1);
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+table {
+	margin: 10px auto;
+	border: thin solid var(--border);
+	box-shadow: 0 0 10px var(--shadow);
+	border-collapse: collapse;
+	margin-top: 2rem;
+}
+
+
+th,
+td {
+	padding: 7px 15px;
+	border: 1px solid var(--borderlight);
+	text-align: center;
+}
+
+th {
+	background-color: var(--back2);
+	font-size: 1em;
+	color: var(--forelight);
+}
+
+tbody tr:nth-child(odd) {
+	background-color: var(--zebra);
+}
+
+
+
+.col {
+	border-top: var(--bord);
+	border-left: var(--bord);
+	padding: 10px;
+}
+
+.col:nth-child(even) {
+	border-right: var(--bord);
+}
+
+
+caption {
+	padding: 10px;
+	caption-side: bottom;
+	color: var(--back);
+	font-size: .85rem;
+}
+
+thead tr:first-child th,
+.highlight {
+	background-color: var(--back);
+	color: var(--forelight);
+}
