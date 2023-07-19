@@ -87,16 +87,17 @@ h1 {
 	font-size: 1em;
 }
 
-#activities a {
-	color: var(--nav-link-color);
-}
-
-#displayItems {
-	font-family: 'Allan', cursive;
+#displayItems,
+#activities li {
+	font-family: Arial, sans-serif;
 }
 
 ul {
 	list-style-type: none;
+}
+
+a:hover {
+	color: red;
 }
 
 .card {
@@ -272,4 +273,10 @@ main {
 		margin: 1rem auto;
 	}
 
+}
+
+#displayWeather {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }

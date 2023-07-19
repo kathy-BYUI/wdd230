@@ -1,7 +1,7 @@
 {
     "weeks": [
         {
-            "week": "Week 1",
+            "week": "Week 01",
             "links": [
                 {
                     "url": "week01/holygrail.html",
@@ -18,7 +18,7 @@
             ]
         },
         {
-            "week": "Week 2",
+            "week": "Week 02",
             "links": [
                 {
                     "url": "week02/design.html",
@@ -35,7 +35,7 @@
             ]
         },
         {
-            "week": "Week 3",
+            "week": "Week 03",
             "links": [
                 {
                     "url": "week03/images/landscape.webp",
@@ -56,36 +56,36 @@
             ]
         },
         {
-            "week": "Week 4",
+            "week": "Week 04",
             "links": [
                 {
                     "url": "https://codepen.io/kathy-BYUI/pen/PoxQLVe",
-                    "title": "CSS Pseudo-classes"
+                    "title": "Pseudo-classes"
                 },
                 {
                     "url": "week04/images/css-combinators.webp",
-                    "title": "CSS Combinators"
+                    "title": "Combinators"
                 },
                 {
                     "url": "week04/tablebuild.html",
-                    "title": "HTML Table"
+                    "title": "Table"
                 },
                 {
                     "url": "form/index.html",
-                    "title": "HTML Form"
+                    "title": "Form"
                 },
                 {
                     "url": "form.html",
-                    "title": "Team Activity - Form"
+                    "title": "Team Form"
                 }
             ]
         },
         {
-            "week": "Week 5",
+            "week": "Week 05",
             "links": [
                 {
                     "url": "https://codepen.io/kathy-BYUI/pen/RwqyXOy",
-                    "title": "CSS Pseudo-elements"
+                    "title": "Pseudo-elements"
                 },
                 {
                     "url": "week05/new-ward-members.json",
