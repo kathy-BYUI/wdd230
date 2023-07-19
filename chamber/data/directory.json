@@ -1,12 +1,12 @@
 [
     {
-        "name": "Instituto de Educación Superior Privado Fibonacci",
+        "name": "ISPP Fibonacci",
         "address": "Jr. Bolívar N°449 y Jr. Prolongación Abtao N°470, Huánuco, Peru",
         "phone": "+51 945 198 486",
         "website": "https://institutofibonacci.edu.pe/",
         "image": "images/fibonacci.jpg",
         "membership_level": "Premium",
-        "other_information": "Somos el PRIMER INSTITUTO LICENCIADO en la región Huánuco"
+        "other_information": "Somos el 1er Instituto Licenciado en la región Huánuco"
     },
     {
         "name": "El Cevichano",
