@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Instituto de Educación Superior Privado Fibonacci",
+        "address": "Jr. Bolívar N°449 y Jr. Prolongación Abtao N°470, Huánuco, Peru",
+        "phone": "+51 945 198 486",
+        "website": "https://institutofibonacci.edu.pe/",
+        "image": "images/fibonacci.jpg",
+        "membership_level": "Premium",
+        "other_information": "Somos el PRIMER INSTITUTO LICENCIADO en la región Huánuco"
+    },
+    {
+        "name": "El Cevichano",
+        "address": "Jr. 2 de Mayo 1353, Huánuco, Peru",
+        "phone": "+51 938 333 188",
+        "website": "https://www.cevichano.com",
+        "image": "images/cevichano.jpg",
+        "membership_level": "Standard",
+        "other_information": "Lo mejor en pescados y mariscos."
+    },
+    {
+        "name": "Clínica Dental Vivanco",
+        "address": "Jr. Ayacucho 752, Huánuco, Peru",
+        "phone": "+51 938 111 222",
+        "website": "https://www.vivanco.com",
+        "image": "images/vivanco.jpg",
+        "membership_level": "Standard",
+        "other_information": "Una sonrisa que nace"
+    },
+    {
+        "name": "Huapri",
+        "address": "Jr. 2 de mayo 902, Huánuco, Peru",
+        "phone": "+51 993 906 607",
+        "website": "https://www.huapri.com",
+        "image": "images/huapri.jpg",
+        "membership_level": "Standard",
+        "other_information": "Bodega y salón de té"
+    }
+]
