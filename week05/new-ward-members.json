@@ -1,0 +1,14 @@
+{
+    "lastName":"Campos",
+    "dateFamilyMoved":"2023-02-15",
+    "nroFamilyMembers": 1,
+    "visitedForBishopric": true,
+    "individualFamilyMembers":[
+        {
+            "firstName":"Kathy Lesly",
+            "lastName":"Campos Cabello",
+            "gender":"female",
+            "birthdate":"1994-12-20"
+        }
+    ]
+}
