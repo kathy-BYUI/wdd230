@@ -1,0 +1,105 @@
+{
+    "weeks": [
+        {
+            "week": "Week 1",
+            "links": [
+                {
+                    "url": "week01/holygrail.html",
+                    "title": "Layout"
+                },
+                {
+                    "url": "week01/media-query.html",
+                    "title": "Media Query"
+                },
+                {
+                    "url": "#",
+                    "title": "JS Pen"
+                }
+            ]
+        },
+        {
+            "week": "Week 2",
+            "links": [
+                {
+                    "url": "week02/design.html",
+                    "title": "Design"
+                },
+                {
+                    "url": "https://codepen.io/kathy-BYUI/pen/poQNzbW",
+                    "title": "Codepen"
+                },
+                {
+                    "url": "week02/bom.html",
+                    "title": "JS DOM"
+                }
+            ]
+        },
+        {
+            "week": "Week 3",
+            "links": [
+                {
+                    "url": "week03/images/landscape.webp",
+                    "title": "WebP"
+                },
+                {
+                    "url": "week03/lazyload.html",
+                    "title": "LazyLoad"
+                },
+                {
+                    "url": "week03/reponsive-images.html",
+                    "title": "Responsive"
+                },
+                {
+                    "url": "week03/bom.html",
+                    "title": "BOM"
+                }
+            ]
+        },
+        {
+            "week": "Week 4",
+            "links": [
+                {
+                    "url": "https://codepen.io/kathy-BYUI/pen/PoxQLVe",
+                    "title": "CSS Pseudo-classes"
+                },
+                {
+                    "url": "week04/images/css-combinators.webp",
+                    "title": "CSS Combinators"
+                },
+                {
+                    "url": "week04/tablebuild.html",
+                    "title": "HTML Table"
+                },
+                {
+                    "url": "form/index.html",
+                    "title": "HTML Form"
+                },
+                {
+                    "url": "form.html",
+                    "title": "Team Activity - Form"
+                }
+            ]
+        },
+        {
+            "week": "Week 5",
+            "links": [
+                {
+                    "url": "https://codepen.io/kathy-BYUI/pen/RwqyXOy",
+                    "title": "CSS Pseudo-elements"
+                },
+                {
+                    "url": "week05/new-ward-members.json",
+                    "title": "JSON"
+                },
+                {
+                    "url": "week05/prophets.html",
+                    "title": "Prophets"
+                },
+                {
+                    "url": "week05/weather.html",
+                    "title": "Weather API"
+                }
+            ]
+        }
+    ]
+}
